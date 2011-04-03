@@ -3,8 +3,8 @@ Contributors: patrickgarman
 Donate link: http://www.patrickgarman.com/
 Tags: currently listening, music
 Requires at least: 2.8
-Tested up to: 3.0.1
-Stable tag: 1.0.1
+Tested up to: 3.1
+Stable tag: 1.1.0
 
 Adds a short line at the bottom of posts/pages using custom fields to tell the world what your listening to.
 
@@ -27,12 +27,12 @@ Available Custom Fields:
 
 Note: You can set only one if you would like, the output will change based on if you have a song, artist, or both added.
 
-== Screenshots ==
-
-1. This is what the admin panel looks like.
-2. A sample line at the bottom of a post.
-
 == Changelog ==
+
+= 1.1.0 =
+* Completely re-developed using PHP class for cleaner code
+* Re-designed options page
+* Redeveloped to allow faster/easier development.
 
 = 1.0.1 =
 * Minor bug fixes that slipped through the initial release
