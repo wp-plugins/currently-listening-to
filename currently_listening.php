@@ -3,7 +3,7 @@
 Plugin Name: Currently Listening
 Plugin URI: http://www.patrickgarman.com/tag/currently-listening/
 Description: Adds a short line at the bottom of posts/pages using custom fields to tell the world what your listening to.
-Version: 1.1.0
+Version: 1.1.1
 Author: Patrick Garman
 Author URI: http://www.patrickgarman.com/
 License: GPLv2
@@ -29,7 +29,7 @@ $currently_listening = new CurrentlyListening();
 class CurrentlyListening{
 	
 	function constructor() {
-		add_action('the_content', 'show_clt'); 
+		add_action('the_content', array(&$this,'show_clt')); 
 	}
 	
 	function show_clt($content) {

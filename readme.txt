@@ -4,7 +4,7 @@ Donate link: http://www.patrickgarman.com/
 Tags: currently listening, music
 Requires at least: 2.8
 Tested up to: 3.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 
 Adds a short line at the bottom of posts/pages using custom fields to tell the world what your listening to.
 
